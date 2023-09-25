@@ -1,41 +1,208 @@
-.body{
+.body {
     display: grid;
     margin: 0;
     padding: 0;
 }
-.hero-container{
+
+.hero-container {
     background: url(../img/header\ principal.jpg);
     background-size: cover;
     padding: 0;
     margin-top: 0;
-    height: 58rem;
-    width: 118rem;
+    width: 116.5rem;
+    height: 59rem;
     display: grid;
 
 }
-.nav{
-    display: grid;
-   
+
+.nav {
+    display: flex;
+
 }
-.nav-list{
-    display:flex;
-    margin-left:85rem;
-    gap:1.5rem;
+
+.nav-list {
+    display: flex;
+    margin-left: 70rem;
+    margin-top: 3rem;
+    gap: 1.5rem;
     list-style: none;
     text-decoration: none;
-    font-size: x-large;
-  
+    font-size: 1.7rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+
 
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
     color: #fff;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
-.hero-tittle{
-    display: grid;
-    margin-left: 18rem;
-    font-size: 8rem;
+
+.hero-tittle {
     color: #fff;
+    display: grid;
+    font-size: 8rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    margin-left: 12rem;
+
+}
+
+.logo {
+    width: 10rem;
+    height: 9.5rem;
+    margin: 1rem;
+
+}
+
+.menu-container {
+    display: grid;
+    margin-bottom: 10rem;
+}
+
+.menu-tittle {
+    margin: 5rem 5rem 2rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: #D94829;
+
+}
+
+.recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, .28fr));
+    justify-content: center;
+
+
+}
+
+.card-container {
+    height: 30rem;
+    width: 30rem;
+    margin: 1.5rem;
+    position: relative;
+}
+
+.card-container div {
+    display: grid;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    grid-template-columns: repeat(auto-fit, minmax(400px, .30fr));
+}
+
+
+/*PRUEBAS DE GIRO*/
+
+.front {
+
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.back {
+    background: #305F3B;
+    height: 30rem;
+    width: 30rem;
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card-container:hover .front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card-container:hover .back {
+
+    transform: perspective(500px) rotateY(360deg);
+}
+
+/*PRUEBAS DE GIRO*/
+
+.Tittle-recipe {
+    display: flex;
+    font-size: 2.5rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    color: #fff;
+    margin: 2rem 0 0 0;
+}
+
+.recipes {
+    display: flex;
+    font-size: 1.8rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    text-align: left;
+    color: #fff;
+    margin: 0;
+}
+.price{
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.amount{
+    position: absolute;
+    top: 25.5rem;
+    left: 26.5rem;
+}
+.shop{
+    position: absolute;
+    top: 4rem;
+    left: 22rem;
+}
+.user{
+    position: absolute;
+    top: 24rem;
+    left: 22rem;
+}
+.more{
+    position: absolute;
+    top: 27rem;
+    left: 13rem;
+}
+
+/*footer*/
+.footer {
+
+    width: 116.5rem;
+    height: 29rem;
+    background: #FFB900;
+    border-top-left-radius: 6rem;
+    border-top-right-radius: 6rem;
+    margin: 2rem 0 0;
+}
+
+.footer-container {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    display: grid;
+    margin-left: 2rem;
+
+}
+
+.footer-logo {
+    width: 15rem;
+    height: 14.5rem;
+    margin: 0;
+
+}
+
+.footer-tittle {
+    font-size: 3rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+.copyright {
+    margin: auto;
+    margin-top: 8rem;
 }
