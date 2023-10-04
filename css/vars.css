@@ -13,9 +13,10 @@
     /*colors*/
 
     --clr-main: #D94829;
-    --clr-secondary: #FFB900;
-    --clr-cart: #305F3B;
+    --clr-secondary: #D7ED32;
+    --clr-cart: #2D1D37;
     --clr-white: #fff;
     --clr-black:#000;
+    --clr-redline:#FF0000;
 
 }
