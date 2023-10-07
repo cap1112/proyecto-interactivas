@@ -1,22 +1,31 @@
 :root {
     /*fonts */
     --ff-main: 'Outfit', sans-serif;
+    --ff-tittle: 'Poiret One', sans-serif;
     /*font size*/
+    --fs-tittle: 10rem;
     --fs-xl: 8rem; 
     --fs-lg: 5rem;
     --fs-md: 2.5rem;
     --fs-nm: 1.8rem; 
     --fs-sm: 1.7rem;
+    --fs-xxs:.8rem;
+
     /*font weight*/
-    --fw-bk: 700 ;
-    --fw-rg: 300 ;
+    --fw-bk:900;
+    --fw-bl: 700 ;
+    --fw-md: 500;
+    --fw-rg: 400;
+    --fw-lg: 300 ;
+
     /*colors*/
 
-    --clr-main: #D94829;
     --clr-secondary: #D7ED32;
     --clr-cart: #2D1D37;
     --clr-white: #fff;
     --clr-black:#000;
     --clr-redline:#FF0000;
+    --clr-gray: #F7F7F7;
+    --clr-dark-grat: #333333;
 
 }
