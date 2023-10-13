@@ -1,0 +1,219 @@
+:root{
+    --swiper-scrollbar-bottom: 0px;
+    --swiper-scrollbar-bg-color: white
+}
+
+html {
+    font-size: 16px;
+    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+.nav-container {
+    background-color: white;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: .20fr 1fr .50fr;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+}
+
+.logo {
+    width: auto;
+}
+.header-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dish-image{
+    width: 80%;
+}
+.nav-title {
+    border-left: 4px solid black;
+    font-weight: 300;
+    font-size: 3rem;
+    display: inline-block;
+    padding-left: 1rem;
+    /* padding: .5rem; */
+}
+
+.nav-link-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.header-image-filter {
+    background-color: antiquewhite;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.header-container{
+    background-color: #F5F5F5;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.header-text {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 3fr .5fr 1fr .7fr .7fr;
+    /* background-color: red; */
+    color: rgba(64, 62, 84, 1);
+    padding-right: 5rem;
+}
+
+.header-title {
+    font-weight: 400;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+}
+
+.header-description {
+    
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.header-link-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 20rem;
+}
+
+.header-link {
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgba(138, 136, 176, 1);
+    margin-left: .9rem;
+}
+
+
+.order-btn-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 0.05rem solid white;
+    border-radius: 2rem;
+    width: 11rem;
+    height: 3rem;
+
+}
+
+.order-btn{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+
+.add-to-car-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.quantity-container{
+    border-radius: 2rem;
+    display: flex;
+    background-color: rgba(64, 62, 84, 1);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    align-content: center;
+    gap: 5rem;
+}
+
+.quantity-button{
+    width: 20%;
+    border: none;
+    background: none; 
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+}
+.quantity-text{
+    align-self: center;
+    
+}
+.quantity-button-left{
+    border-right: 2px solid white;
+}
+.quantity-button-right{
+    border-left: 2px solid white;
+}
+
+.price-container{
+    font-weight: 500;
+    font-size: 1.5rem;
+    background: white;
+    border: .2rem solid ;
+    border-radius: 2rem;
+    align-content: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.price-container p{
+    align-self: center;
+}
+.atc-container{
+    border-radius: 2rem;
+    display: flex;
+    color: white;
+    align-content: center;
+    gap: 5rem;
+}
+
+.atc-button{
+    width: 65%;
+    border: none;
+    background: none; 
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(250, 54, 55, 1);
+    border-radius: 2rem;
+}
+
+
+
+@media (max-width: 600px) {
+    /* Estilos específicos para pantallas más pequeñas */
+    button {
+        background-color: red;
+        padding: 8px 16px;
+    }
+}

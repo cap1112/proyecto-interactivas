@@ -1,3 +1,5 @@
+let animationEfect = "animate__fadeInLeft";
+
 var swiper = new Swiper(".swiper", {
 
     effect: "slide",
@@ -88,21 +90,22 @@ var swiper = new Swiper(".swiper", {
     }
   }
   function textAddAnimation() {
+ 
     document.querySelector('.header-title').classList.add("animate__animated");
-    document.querySelector('.header-title').classList.add("animate__fadeInLeft");
+    document.querySelector('.header-title').classList.add(animationEfect);
     document.querySelector(".header-description").classList.add("animate__animated");
-    document.querySelector(".header-description").classList.add("animate__fadeInLeft");
+    document.querySelector(".header-description").classList.add(animationEfect);
     document.querySelector('.order-btn-container').classList.add("animate__animated");
-    document.querySelector('.order-btn-container').classList.add("animate__fadeInLeft");
+    document.querySelector('.order-btn-container').classList.add(animationEfect);
   }
   
   function textRemoveAnimation() {
     document.querySelector('.header-title').classList.remove("animate__animated");
-    document.querySelector('.header-title').classList.remove("animate__fadeInLeft");
+    document.querySelector('.header-title').classList.remove(animationEfect);
     document.querySelector(".header-description").classList.remove("animate__animated");
-    document.querySelector(".header-description").classList.remove("animate__fadeInLeft");
+    document.querySelector(".header-description").classList.remove(animationEfect);
     document.querySelector('.order-btn-container').classList.remove("animate__animated");
-    document.querySelector('.order-btn-container').classList.remove("animate__fadeInLeft");
+    document.querySelector('.order-btn-container').classList.remove(animationEfect);
   }
   
   //main loading
