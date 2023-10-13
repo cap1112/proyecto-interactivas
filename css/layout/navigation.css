@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--clr-white);
+    align-items: center;
+    width: 100vw;
+}
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    font-size: var(--fs-sm);
+    font-family: var(--ff-main);
+    font-weight: var(--fw-md);
+    gap: 2rem;
+    margin-right: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--clr-black);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.logo {
+    width: 8rem;
+}

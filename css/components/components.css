@@ -1,0 +1,87 @@
+.cta-container {
+
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.hero-btn {
+    background: var(--clr-secondary);
+    padding: .5rem 5rem;
+    border-radius: 1.5rem;
+    font-family: var(--ff-main);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-md);
+    color: var(--clr-cart);
+    text-align: center;
+    text-decoration: none;
+}
+.recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 5rem;
+    justify-content: center;
+    justify-items: center;
+    width: 100vw;
+
+}
+
+.card-container {
+    height: 30rem;
+    width: 30rem;
+    margin: 1.5rem;
+
+}
+
+.card-container div {
+    display: grid;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    border-radius: 3rem;
+}
+
+.card-image {
+    height: 30rem;
+    width: 30rem;
+
+}
+
+
+/*GIRO*/
+
+.front {
+
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.back {
+    background: var(--clr-cart);
+    height: 30rem;
+    width: 30rem;
+    transform: perspective(500px) rotateY(180deg);
+    padding: 1rem;
+}
+
+.card-container:hover .front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card-container:hover .back {
+
+    transform: perspective(500px) rotateY(360deg);
+}
+
+/*GIRO*/
+
+.more {
+    position: absolute;
+    top: 27rem;
+    left: 13rem;
+}
+.link {
+    margin: 1rem;
+}

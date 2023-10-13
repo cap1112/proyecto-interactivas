@@ -1,0 +1,114 @@
+.hero-tittle {
+    margin-bottom: 0;
+    color: var(--clr-white);
+    text-align: center;
+    font-size: var(--fs-tittle);
+    font-family: var(--ff-tittle);
+    font-weight: var(--fw-rg);
+
+}
+
+
+.hero-text {
+    font-family: var(--ff-main);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-md);
+    color: var(--clr-white);
+    width: 40vw;
+    text-align: center;
+    margin: 5rem;
+
+}
+.categories-tittle {
+    color: var(--clr-black);
+    font-size: var(--fs-lg);
+    font-family: var(--ff-main);
+    font-weight: var(--fw-lg);
+    margin-top: 4rem;
+}
+.categorie-type {
+    font-size: var(--fs-sm);
+    font-family: var(--ff-main);
+    font-weight: var(--fw-md);
+    color: var(--clr-dark-gray);
+
+}
+.categories-main-tittle {
+    color: var(--clr-cart);
+    font-size: var(--fs-md);
+    font-family: var(--ff-main);
+    font-weight: var(--fw-bl);
+    margin: 0 2.5rem;
+    text-align: center;
+}
+
+.categorie-recipe {
+    display: block;
+    color: var(--clr-cart);
+    font-size: var(--fs-sm);
+    font-family: var(--ff-main);
+    font-weight: var(--fw-lg);
+    margin: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.delights-tittle {
+    color: var(--clr-white);
+    text-align: center;
+    font-size: var(--fs-lg);
+    font-family: var(--ff-main);
+    font-weight: var(--fw-rg);
+    margin: 5rem;
+}
+.menu-tittle {
+    color: var(--clr-cart);
+    font-family: var(--ff-main);
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bl);
+    margin: 3rem 5rem 2rem;
+    text-align: center;
+    gap: 1rem;
+
+}
+.Tittle-recipe {
+    display: flex;
+    font-family: var(--ff-main);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-bl);
+    text-align: left;
+    color: var(--clr-white);
+    margin: 1rem 0 0 0;
+}
+.recipes {
+    display: flex;
+    font-family: var(--ff-main);
+    font-size: var(--fs-nm);
+    font-weight: var(--fw-lg);
+    text-align: left;
+    color: var(--clr-white);
+    margin: 0;
+
+}
+
+.footer-container {
+    font-family: var(--ff-main);
+    font-weight: var(--fw-lg);
+    color: var(--clr-cart);
+    display: block;
+    text-align: center;
+
+}
+.footer-tittle {
+    font-size: 4rem;
+    font-weight: var(--fw-rg);
+    margin: 1.5rem;
+}
+
+.footer-text {
+    font-weight: var(--fw-rg);
+    margin: 1.5rem;
+}
+.copyright {
+    margin: 1.5rem;
+    font-weight: var(--fw-bl);
+}

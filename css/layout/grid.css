@@ -1,0 +1,104 @@
+.select-categorie {
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+}
+
+
+
+.red-bar {
+    width: 168.442px;
+    height: 4px;
+    background: #F00;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.categories {
+    border-radius: 3rem;
+    display: grid;
+    width: 80vw;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5em;
+}
+
+
+.categories-div {
+    display: grid;
+    margin: 1rem;
+    background: var(--clr-gray);
+    border-radius: 2rem;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.categorie-image {
+    margin: auto;
+}
+
+.categories-full-container {
+    display: block;
+    width: 100vw;
+
+}
+
+.categorie-container {
+    display: block;
+    justify-content: center;
+    margin: 10rem;
+    border: .5rem solid var(--clr-cart);
+    padding: 2.5rem;
+    border-radius: 3rem;
+
+
+}
+
+.top_ten {
+    display: flex;
+    background: linear-gradient(0deg, rgba(16, 25, 69, 0.57), rgba(16, 25, 69, 0.57)), url(../../imgs/taco\ de\ res.jpg) no-repeat;
+    background-size: cover;
+    height: 40rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-container {
+    display: flex;
+    margin: 8rem 0;
+    flex-direction: column;
+    align-content: center;
+    background: var(--clr-gray);
+    border-radius: 5rem;
+    width: 100vw;
+}
+
+.price {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.amount {
+    position: absolute;
+    top: 24.5rem;
+    left: 29rem;
+}
+
+.shop {
+    position: absolute;
+    top: 4rem;
+    left: 24rem;
+}
+
+.user {
+    position: absolute;
+    top: 23rem;
+    left: 24rem;
+}

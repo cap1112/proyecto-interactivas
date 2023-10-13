@@ -1,0 +1,22 @@
+.hero-container {
+    display: flex;
+    background: linear-gradient(0deg, rgba(16, 25, 69, 0.57), rgba(16, 25, 69, 0.57)), url(../../imgs/taco\ de\ res.jpg) no-repeat;
+    background-size: cover;
+    height: 60rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*categories page*/
+.hero-container-categories {
+    display: flex;
+    background: linear-gradient(0deg, rgba(16, 25, 69, 0.57), rgba(16, 25, 69, 0.57)), url(../../imgs/taco\ de\ res.jpg) no-repeat;
+    background-size: cover;
+    height: 40rem;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+}

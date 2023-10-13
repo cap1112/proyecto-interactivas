@@ -1,414 +1,86 @@
-@import url(./vars.css);
+@import url('./abstracts/vars.css');
 
-.body {
-    display: grid;
-    margin: 0;
-    padding: 0; 
-}
+@import url('./base/base.css');
+@import url('./base/typography.css');
 
-/*Header*/
-.hero-container {
-    display: flex;
-    background: linear-gradient(0deg , rgba(16, 25, 69, 0.57), rgba(16, 25, 69, 0.57)) , url(../img/image\ 6.png) no-repeat;
-    background-size: cover;
-    height: 50rem;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-/*categories page*/
-.hero-container-categories {
-    display: flex;
-    background: linear-gradient(0deg , rgba(16, 25, 69, 0.57), rgba(16, 25, 69, 0.57)) , url(../img/image\ 6.png) no-repeat;
-    background-size: cover;
-    height: 40rem;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    
-}
-/*categories page*/
+@import url('layout/footer.css');
+@import url('layout/forms.css');
+@import url('layout/grid.css');
+@import url('layout/header.css');
+@import url('layout/navigation.css');
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--clr-white);
-    align-items: center;  
-    width: 100vw;
-}
-
-
-.nav-list {
-    display: flex;
-    list-style: none;
-    font-size: var(--fs-sm);
-    font-family: var(--ff-main);
-    font-weight: var(--fw-md);
-    gap: 2rem;
-    margin-right: 1.5rem;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: var(--clr-black);
-    margin: 0;
-    padding: 0;
-}
-
-.hero-tittle {
-    margin-bottom: 0;
-    color: var(--clr-white);
-    text-align: center;
-    font-size: var(--fs-tittle);
-    font-family: var(--ff-tittle);
-    font-weight: var(--fw-rg);
-
-}
-
-.hero-text-container{
-    margin: auto;
-    margin-top: 0 ;
-    width: 50%;
-
-}
-.hero-text{
-    font-family: var(--ff-main);
-    font-size: var(--fs-sm);
-    font-weight: var(--fw-rg);
-    color: var(--clr-white);
-    text-align: center;
-}
-.cta-container{
-    margin: auto;
-    margin-top: 1rem;
-    
-}
-.hero-btn{
-    background: var(--clr-secondary);
-    padding: .5rem 2rem;
-    border-radius: 1.5rem;
-    font-family: var(--ff-main);
-    font-size: var(--fs-nm);
-    font-weight: var(--fw-md);
-    color: var(--clr-cart);
-    text-align: center;
-    text-decoration: none;  
-}
-
-.logo {
-    width: 8rem;
-}
-/*Header*/
-
-
-/*Body*/
-.select-categorie{
-    margin-top: 2rem;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.categories-tittle{
-    color: var(--clr-black);
-    font-size: var(--fs-lg);
-    font-family: var(--ff-main);
-    font-weight: var(--fw-lg);
-    margin-top: 4rem;
-}
-
-.red-bar {
-    width: 168.442px;
-    height: 4px;
-    background: #F00;
-    margin: auto;
-    margin-top: 2rem;
-}
-
-.categories {
-    border-radius: 3rem;
-    display: grid;
-    width: 80vw;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5em;
-}
-
-
-.categories-div {
-    display: grid;
-    margin: 1rem;
-    background: var(--clr-gray);
-    border-radius: 2rem;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-}
-.categorie-type{
-    font-size: var(--fs-sm);
-    font-family: var(--ff-main);
-    font-weight: var(--fw-md);
-    color: var(--clr-dark-gray);
-    
-}
-.categorie-image{
-    margin: auto;
-}
-
-
-
-/*categories page*/
-
-.categories-full-container{
-    display: block;
-    width: 100vw;
-}
-.categorie-container{
-    display: block;
-    justify-content: center;
-    margin: 10rem ;
-    border: .5rem solid var(--clr-cart);
-    padding: 2.5rem;
-    border-radius: 3rem;
-    
-
-}
-
-.categories-main-tittle{
-    color: var(--clr-cart);
-    font-size: var(--fs-md);
-    font-family: var(--ff-main);
-    font-weight: var(--fw-bl);
-    margin: 0 2.5rem;
-    text-align: center;
-}
-
-.categorie-recipe{
-    display: block;
-    color: var(--clr-cart);
-    font-size: var(--fs-sm);
-    font-family: var(--ff-main);
-    font-weight: var(--fw-lg);
-    margin: 1rem;
-    text-align: center;
-    text-decoration: none;
-}
-/*categories page*/
-
-
-
-.menu-container {
-    display: flex;
-    margin: 8rem 0;
-    flex-direction: column;
-    align-content: center;
-    background: var(--clr-gray);
-    border-radius: 5rem;
-    width: 100vw;
-}
-
-.menu-tittle {
-    color: var(--clr-cart);
-    font-family: var(--ff-main);
-    font-size: var(--fs-lg);
-    font-weight: var(--fw-bl);
-    margin: 3rem 5rem 2rem;
-    text-align: center;
-    gap: 1rem;
-
-}
-
-.recipes-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-    gap: 5rem;
-    justify-content: center;
-    justify-items: center;
-    width: 100vw;
-}
-
-.card-container {
-    height: 30rem;
-    width: 30rem;
-    margin: 1.5rem;
-
-}
-
-.card-container div {
-    display: grid;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    backface-visibility: hidden;
-    transition: 1s;
-    border-radius: 3rem;
-}
-
-.card-image {
-    height: 30rem;
-    width: 30rem;
-}
-
-
-/*PRUEBAS DE GIRO*/
-
-.front {
-
-    transform: perspective(500px) rotateY(0deg);
-}
-
-.back {
-    background: var(--clr-cart);
-    height: 30rem;
-    width: 30rem;
-    transform: perspective(500px) rotateY(180deg);
-   padding: 1rem;
-}
-
-.card-container:hover .front {
-    transform: perspective(500px) rotateY(180deg);
-}
-
-.card-container:hover .back {
-
-    transform: perspective(500px) rotateY(360deg);
-}
-
-/*PRUEBAS DE GIRO*/
-
-.Tittle-recipe {
-    display: flex;
-    font-family: var(--ff-main);
-    font-size: var(--fs-md);
-    font-weight: var(--fw-bl);
-    text-align: left;
-    color: var(--clr-white);
-    margin: 1rem 0 0 0;
-}
-
-.recipes {
-    display: flex;
-    font-family: var(--ff-main);
-    font-size: var(--fs-nm);
-    font-weight: var(--fw-lg);
-    text-align: left;
-    color: var(--clr-white);
-    margin: 0;
-
-}
-
-.price {
-    margin-bottom: 1rem;
-    font-weight: 700;
-}
-
-.amount {
-    position: absolute;
-    top: 24.5rem;
-    left: 29rem;
-}
-
-.shop {
-    position: absolute;
-    top: 4rem;
-    left: 24rem;
-}
-
-.user {
-    position: absolute;
-    top: 23rem;
-    left: 24rem;
-}
-
-.more {
-    position: absolute;
-    top: 27rem;
-    left: 13rem;
-}
-
-/*Body*/
-
-/*footer*/
-.footer {
-    display: flex;
-    width: 100vw;
-    height: 29rem;
-    background: var(--clr-secondary);
-    border-top-left-radius: 6rem;
-    border-top-right-radius: 6rem;
-    margin: 5rem 0 0;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-container {
-    font-family: var(--ff-main);
-    font-weight: var(--fw-lg);
-    color: var(--clr-cart);
-    display: block;
-    text-align: center;
-
-}
-
-
-.link{
-  margin: 1rem;  
-}
-
-.footer-tittle {
- font-size: 4rem;
- font-weight: var(--fw-rg);
- margin: 1.5rem;
-}
-.footer-text{
-    font-weight: var(--fw-rg);
-    margin: 1.5rem;
-}
-.copyright {
-    margin: 1.5rem;
-    font-weight: var(--fw-bl);
-}
+@import url('components/components.css');
 
 @media (max-width: 1280px) {
-   
+
     .menu-container {
         margin: 16rem 0;
     }
+
+    .card-image {
+        height: 20rem;
+        width: 20rem;
+
+    }
+
+    .back {
+        height: 20rem;
+        width: 20rem;
+    }
+
 }
 
 @media (max-width: 600px) {
 
     .hero-tittle {
         font-size: var(--fs-lg);
+
     }
-    .hero-text{
+
+    .hero-text {
         font-size: var(--fs-sm);
+        text-align: center;
+        width: 80dvw;
+
     }
-    .hero-text-container{
-        width: 90%;
+
+
+    .hero-btn {
+        font-size: var(--fs-nm);
+        padding: 0.5rem 2rem;
     }
-    .categories-tittle{
+
+    .delights-tittle {
         font-size: var(--fs-md);
     }
+
+
+    .categories-tittle {
+        font-size: var(--fs-md);
+    }
+
     .footer {
         height: 40rem;
         border-top-left-radius: 3rem;
         border-top-right-radius: 3rem;
         margin: 5rem 0 0 0;
-        
+
     }
 
-    .link{
-      margin: 1rem;
-      height: 5rem;
-      width: 5rem;  
+    .link {
+        margin: 1rem;
+        height: 5rem;
+        width: 5rem;
     }
-    .categorie-container{
-        margin: 1rem ;
+
+    .categorie-container {
+        margin: 1rem;
         border: .5rem solid var(--clr-cart);
         padding: 2.5rem;
         border-radius: 3rem;
-    
+
     }
+
+
 
 }
