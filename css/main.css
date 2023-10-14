@@ -11,6 +11,26 @@
 
 @import url('components/components.css');
 
+/* no funciona si lo coloco en la carpeta de components.css */
+
+
+
+.header-image-filter {
+    background-size: cover;
+    background: url(../imgs/Rectangle\ 131.png);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: var(--ff-main);
+}
+
 @media (max-width: 1280px) {
 
     .menu-container {
@@ -80,7 +100,4 @@
         border-radius: 3rem;
 
     }
-
-
-
 }

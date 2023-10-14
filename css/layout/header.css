@@ -18,5 +18,36 @@
     width: 100vw;
     align-items: center;
     justify-content: center;
-
 }
+
+/* dish description page beginning*/
+.header-container {
+    background-color: var(--clr-bone);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+.header-image-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* dish description page ending */
+
+/* top dishes page beginning */
+
+.slider-header-container {
+    background-size: cover;
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+/* top dishes page ending */

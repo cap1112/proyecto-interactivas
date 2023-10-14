@@ -6,7 +6,6 @@
     width: 100vw;
 }
 
-
 .nav-list {
     display: flex;
     list-style: none;
@@ -24,10 +23,35 @@
     padding: 0;
 }
 
-
-
-
-
 .logo {
-    width: 8rem;
+    /* width: 8rem; */
+    width: auto;
 }
+
+
+/* dish description page beginning*/
+.nav-2{
+    align-content: center;
+    align-items: center;
+    background-color: var(--clr-white);
+    display: grid;
+    grid-template-columns: .20fr 1fr .50fr;
+}
+
+.nav-link-container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.nav-link-2 {
+    color: var(--clr-dark-grat);
+    font-size: var(--fs-s);
+    font-weight: var(--fw-md);
+    text-decoration: none;
+}
+
+
+/* dish description page ending */

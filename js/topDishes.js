@@ -1,3 +1,4 @@
+
 let animationEfect = "animate__fadeInLeft";
 
 var swiper = new Swiper(".swiper", {

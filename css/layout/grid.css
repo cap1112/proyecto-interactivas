@@ -7,8 +7,6 @@
     margin-bottom: 8rem;
 }
 
-
-
 .red-bar {
     width: 168.442px;
     height: 4px;
@@ -25,7 +23,6 @@
     gap: 1.5em;
 }
 
-
 .categories-div {
     display: grid;
     margin: 1rem;
@@ -35,8 +32,6 @@
     align-content: center;
     text-align: center;
 }
-
-
 
 .categorie-image {
     margin: auto;
@@ -102,3 +97,76 @@
     top: 23rem;
     left: 24rem;
 }
+
+
+/* dish description page */
+.price-container {
+    align-content: center;
+    background: var(--clr-white);
+    border-radius: 2rem;
+    border: .2rem solid;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.quantity-container {
+    align-content: center;
+    background-color: var(--clr-purple);
+    border-radius: 2rem;
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.add-to-car-container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.atc-container {
+    display: flex;
+}
+/* dish description page */
+
+/* top dishes page beginning */
+.header-text-container {
+    color: var(--clr-white);
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+    padding: 10%;
+}
+.slider-header-container {
+    background-size: cover;
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+.slider-button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 6rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    width: 12rem;
+}
+.order-btn-container {
+    align-items: center;
+    border-radius: 2rem;
+    border: 0.05rem solid var(--clr-white);
+    display: flex;
+    height: 3rem;
+    text-align: center;
+    width: 11rem;
+}
+.slider-header-container {
+    background-size: cover;
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+/* top dishes page ending */

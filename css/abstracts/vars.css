@@ -9,6 +9,8 @@
     --fs-md: 2.5rem;
     --fs-nm: 1.8rem; 
     --fs-sm: 1.7rem;
+    --fs-s: 1.5rem;
+    --fs-xs: 1.3rem;
     --fs-xxs:.8rem;
 
     /*font weight*/
@@ -22,10 +24,17 @@
 
     --clr-secondary: #D7ED32;
     --clr-cart: #2D1D37;
-    --clr-white: #fff;
-    --clr-black:#000;
+    --clr-white: #ffffff;
+    --clr-bone: #F5F5F5;
+    --clr-black:#000000;
     --clr-redline:#FF0000;
     --clr-gray: #F7F7F7;
     --clr-dark-grat: #333333;
+    --clr-purple:#403e54;
+    --clr-pink: #8a88b0;
 
+    /* swiper slider custom propeties */
+    --swiper-scrollbar-bottom: 0px;
+    --swiper-scrollbar-bg-color: white
+    
 }

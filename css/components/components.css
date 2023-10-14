@@ -1,5 +1,4 @@
 .cta-container {
-
     margin-top: 1rem;
     display: flex;
     justify-content: center;
@@ -17,6 +16,7 @@
     text-align: center;
     text-decoration: none;
 }
+
 .recipes-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
@@ -49,7 +49,6 @@
     width: 30rem;
 
 }
-
 
 /*GIRO*/
 
@@ -85,3 +84,118 @@
 .link {
     margin: 1rem;
 }
+
+
+/* dish description page beginning*/
+
+.header-dish-image {
+    width: 80%;
+}
+
+.atc-btn {
+    background-color: var(--clr-redline);
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+    width: 65%;
+}
+
+
+.quantity-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-left: 2px solid var(--clr-white);
+    border-right: 2px solid var(--clr-white);
+}
+/* dish description page ending */
+
+/* top dishes page beginning */
+.order-btn{
+    color: var(--clr-white);
+    font-size: var(--fs-s);
+    font-weight: var(--fw-md);
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.order-btn{
+    color: var(--clr-white);
+    font-size: var(--fs-s);
+    font-weight: var(--fw-md);
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.swiperBackground{
+    background-size: cover;
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+.slider {
+    height: 20rem;
+    width: 10rem;
+}
+
+.swiper {
+    height: 25rem;
+    margin-top: 10rem;
+    width: 50rem;
+}
+
+.swiper-slide{
+    align-items: center;
+    background: var(--clr-white);
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    overflow: hidden;
+    text-align: end;
+}
+
+.swiper-slide-border{
+    border-radius: 1rem;
+    border: 0.05rem solid var(--clr-white);
+    box-sizing: border-box;
+}
+
+.slider-button{
+    background-repeat: no-repeat;
+    border-radius: 3rem;
+    border: .05rem solid var(--clr-white);
+    margin: .2rem;
+}
+
+.swiper-slide-image {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.slider-button-image-next{
+    width: 1rem;
+    margin-top: 1.9rem;
+    margin-left: 2.3rem;
+}
+.slider-button-image-preview{
+    width: 1rem;
+    margin-top: 1.9rem;
+    margin-left: 1.9rem;
+    
+}
+.swiper-slide-background{
+    align-items: center;
+    border-radius: 1rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+/* top dishes page ending */
