@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Poiret+One&display=swap"
+        rel="stylesheet">
+    <!-- Google Fonts -->
+</head>
+
+<body class="body">
+    <header>
+        <nav class="nav">
+
+            <img class="logo" src="imgs/catrina_diseñoFinal-02.png" alt="catrina">
+
+            <ul class="nav-list">
+                <li><a href="homepage.html" class="nav-link">Home</a></li>
+                <li><a href="categories.html" class="nav-link">Cart</a></li>
+                <li><a href="" class="nav-link">Contact</a></li>
+                <li><a href="" class="nav-link">About Us</a></li>
+                <li><a href="login.html" class="nav-link">Log in</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="Admin-container">
+        <h1 class="admin-tittle">Add recipe</h1>
+        <div class="login">
+
+            <form class="recipe-form" action="">
+                <input class="add-recipe" type="text" placeholder="Name">
+                <input class="add-recipe" type="text" placeholder="Categorie">
+                <input class="add-recipe" type="text" placeholder="Description">
+                <input class="add-recipe" type="text" placeholder="Portion size">
+                <input class="add-recipe" type="text" placeholder="Price">
+                <div class="related-dishes">
+                    <input class="add-recipes" type="url" placeholder="Related dishes">
+                    <input class="add-recipes" type="url" placeholder="Related dishes">
+                    <input class="add-recipes" type="url" placeholder="Related dishes">
+                </div>
+
+                <input class="add-Recipe" type="image" placeholder="Image">
+                <div class="check-container">
+                    <input class="check-recipe" type="checkbox">
+                    <h3 class="delights-check">Delight recipe</h3>
+                </div>
+                <div class="cta-container">
+                    <input class="login-btn" type="submit" value="Add">
+                </div>
+
+            </form>
+        </div>
+         <!-- Edit -->
+         <h1 class="admin-tittle">Edit recipe</h1>
+         <div class="login">
+ 
+             <form class="recipe-form" action="">
+                 <input class="delete" type="search" placeholder="Name">
+                 
+                 <div class="cta-container">
+                     <input class="delete-btn" type="submit" value="Search">
+                     <input class="delete-btn" type="submit" value="Edit">
+                 </div>
+ 
+             </form>
+         </div>
+        <!-- DELETE-->
+        <h1 class="admin-tittle">Delete recipe</h1>
+        <div class="login">
+
+            <form class="recipe-form" action="">
+                <input class="delete" type="search" placeholder="Name">
+                
+                <div class="cta-container">
+                    <input class="delete-btn" type="submit" value="Search">
+                    <input class="delete-btn" type="submit" value="Delete">
+                </div>
+
+            </form>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
