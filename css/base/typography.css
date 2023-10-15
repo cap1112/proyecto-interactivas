@@ -1,51 +1,51 @@
 .hero-tittle {
-    margin-bottom: 0;
     color: var(--clr-white);
-    text-align: center;
-    font-size: var(--fs-tittle);
     font-family: var(--ff-tittle);
+    font-size: var(--fs-tittle);
     font-weight: var(--fw-rg);
-
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .hero-text {
+    color: var(--clr-white);
     font-family: var(--ff-main);
     font-size: var(--fs-md);
     font-weight: var(--fw-md);
-    color: var(--clr-white);
-    width: 70vw;
-    text-align: center;
     margin: 5rem;
+    text-align: center;
+    width: 70vw;
 
 }
 .categories-tittle {
     color: var(--clr-black);
-    font-size: var(--fs-lg);
     font-family: var(--ff-main);
+    font-size: var(--fs-lg);
     font-weight: var(--fw-lg);
     margin-top: 4rem;
 }
 .categorie-type {
-    font-size: var(--fs-sm);
-    font-family: var(--ff-main);
-    font-weight: var(--fw-md);
     color: var(--clr-dark-gray);
+    font-family: var(--ff-main);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-md);
+    margin-bottom: 2rem;
 
 }
 .categories-main-tittle {
     color: var(--clr-cart);
-    font-size: var(--fs-md);
     font-family: var(--ff-main);
+    font-size: var(--fs-md);
     font-weight: var(--fw-bl);
     margin: 0 2.5rem;
     text-align: center;
 }
 
 .categorie-recipe {
-    display: block;
     color: var(--clr-cart);
-    font-size: var(--fs-sm);
+    display: block;
     font-family: var(--ff-main);
+    font-size: var(--fs-sm);
     font-weight: var(--fw-lg);
     margin: 1rem;
     text-align: center;
@@ -53,30 +53,30 @@
 }
 .delights-tittle {
     color: var(--clr-white);
-    text-align: center;
-    font-size: var(--fs-lg);
     font-family: var(--ff-main);
+    font-size: var(--fs-lg);
     font-weight: var(--fw-rg);
     margin: 5rem;
+    text-align: center;
 }
 .menu-tittle {
     color: var(--clr-cart);
     font-family: var(--ff-main);
     font-size: var(--fs-lg);
     font-weight: var(--fw-bl);
+    gap: 1rem;
     margin: 3rem 5rem 2rem;
     text-align: center;
-    gap: 1rem;
 
 }
 .Tittle-recipe {
+    color: var(--clr-white);
     display: flex;
     font-family: var(--ff-main);
     font-size: var(--fs-md);
     font-weight: var(--fw-bl);
-    text-align: left;
-    color: var(--clr-white);
     margin: 1rem 0 0 0;
+    text-align: left;
 }
 .recipes {
     display: flex;
@@ -90,10 +90,10 @@
 }
 
 .footer-container {
-    font-family: var(--ff-main);
-    font-weight: var(--fw-lg);
     color: var(--clr-cart);
     display: block;
+    font-family: var(--ff-main);
+    font-weight: var(--fw-lg);
     text-align: center;
 
 }
@@ -108,8 +108,8 @@
     margin: 1.5rem;
 }
 .copyright {
-    margin: 1.5rem;
     font-weight: var(--fw-bl);
+    margin: 1.5rem;
 }
 
 /* dish description page beginning*/
@@ -150,9 +150,9 @@
 }
 
 .price-text {
+    align-self: center;
     font-size: var(--fs-sm);
     font-weight: var(--fw-md);
-    align-self: center;
 }
 
 .atc-btn-text {
@@ -162,10 +162,10 @@
 }
 
 .quantity-btn-text{
+    align-self: center;
+    color: var(--clr-white);
     font-size: var(--fs-sm);
     font-weight: var(--fw-md);
-    color: var(--clr-white);
-    align-self: center;
 }
 /* dish description page ending */
 
@@ -182,8 +182,8 @@
     font-weight: 400;
 }
 .copyright-text {
-    font-weight: var(--fw-rg);
     font-size: var(--fs-s);
+    font-weight: var(--fw-rg);
 }
 .swiper-slide-text{
     color: var(--clr-white);
@@ -192,3 +192,63 @@
     text-align: end;
 }
 /* top dishes page ending */
+
+/*Log in*/
+.Login-tittle {
+    color: var(--clr-cart);
+    font-family: var(--ff-main);
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-md);
+
+}
+
+.remember-check {
+    color: var(--clr-cart);
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-md);
+    margin-left: .5rem;
+}
+
+.forgot-password {
+    color: var(--clr-redline);
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-md);
+    margin-left: 5rem;
+}
+
+.sign-text {
+    color: var(--clr-cart);
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-md);
+}
+
+.email {
+    border-radius: 2rem;
+    border: none;
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-md);
+    padding: 1rem;
+    width: 30vw;
+}
+/*Log in*/
+/*Sign up*/
+.sign-up {
+    color: var(--clr-cart);
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-md);
+    margin-left: 3rem;
+}
+/*Sign up */
+/*admin*/
+.admin-tittle{
+    color: var(--clr-cart);
+    font-family: var(--ff-main);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-md);
+}
+/*admin*/

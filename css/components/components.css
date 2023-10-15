@@ -1,26 +1,26 @@
 .cta-container {
-    margin-top: 1rem;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
     margin: 5rem;
 }
 
 .hero-btn {
     background: var(--clr-secondary);
-    padding: .5rem 5rem;
     border-radius: 1.5rem;
+    color: var(--clr-cart);
     font-family: var(--ff-main);
     font-size: var(--fs-md);
     font-weight: var(--fw-md);
-    color: var(--clr-cart);
+    padding: .5rem 5rem;
     text-align: center;
     text-decoration: none;
 }
 
 .recipes-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     justify-content: center;
     justify-items: center;
     width: 100vw;
@@ -29,19 +29,19 @@
 
 .card-container {
     height: 30rem;
-    width: 30rem;
     margin: 1.5rem;
+    width: 30rem;
 
 }
 
 .card-container div {
-    display: grid;
-    position: absolute;
     align-items: center;
-    justify-content: center;
     backface-visibility: hidden;
-    transition: 1s;
     border-radius: 3rem;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    transition: 1s;
 }
 
 .card-image {
@@ -60,9 +60,9 @@
 .back {
     background: var(--clr-cart);
     height: 30rem;
-    width: 30rem;
-    transform: perspective(500px) rotateY(180deg);
     padding: 1rem;
+    transform: perspective(500px) rotateY(180deg);
+    width: 30rem;
 }
 
 .card-container:hover .front {
@@ -77,9 +77,9 @@
 /*GIRO*/
 
 .more {
+    left: 13rem;
     position: absolute;
     top: 27rem;
-    left: 13rem;
 }
 .link {
     margin: 1rem;
@@ -103,15 +103,23 @@
 
 .quantity-btn{
     background: none;
+    border-left: 2px solid var(--clr-white);
+    border-right: 2px solid var(--clr-white);
     border: none;
     cursor: pointer;
     width: 100%;
-    border-left: 2px solid var(--clr-white);
-    border-right: 2px solid var(--clr-white);
 }
 /* dish description page ending */
 
 /* top dishes page beginning */
+.header-image-filter {
+    background: url(../../imgs/filtro.png);
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
 .order-btn{
     color: var(--clr-white);
     font-size: var(--fs-s);
@@ -180,15 +188,15 @@
 }
 
 .slider-button-image-next{
-    width: 1rem;
-    margin-top: 1.9rem;
     margin-left: 2.3rem;
+    margin-top: 1.9rem;
+    width: 1rem;
 }
 .slider-button-image-preview{
-    width: 1rem;
-    margin-top: 1.9rem;
-    margin-left: 1.9rem;
     
+    margin-left: 1.9rem;
+    margin-top: 1.9rem;
+    width: 1rem;
 }
 .swiper-slide-background{
     align-items: center;
@@ -199,3 +207,61 @@
     overflow: hidden;
 }
 /* top dishes page ending */
+
+/*login*/
+.login-btn {
+    background: var(--clr-redline);
+    border-radius: 1.5rem;
+    border: none;
+    color: var(--clr-white);
+    font-family: var(--ff-main);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-md);
+    padding: .4rem 4rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.check{
+    width: 1rem;
+    height: 1rem;
+}
+/*login*/
+/*admin*/
+.check-recipe{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.delights-check{
+    color: var(--clr-cart);
+    font-family: var(--ff-main);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-md);
+    
+}
+.delete{
+    border-radius: 2rem;
+    border: none;
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-md); 
+    padding: 1rem;
+    width: 30vw;
+
+}
+.delete-btn{
+    background: var(--clr-redline);
+    border-radius: 1.5rem;
+    border: none;
+    color: var(--clr-white);
+    font-family: var(--ff-main);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-md);
+    margin: 1rem;
+    padding: .4rem 4rem;
+    text-align: center;
+    text-decoration: none;
+}
+/*admin*/

@@ -1,35 +1,35 @@
 .select-categorie {
-    margin-top: 2rem;
-    width: 100vw;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 8rem;
+    margin-top: 2rem;
+    width: 100vw;
 }
 
 .red-bar {
-    width: 168.442px;
-    height: 4px;
     background: #F00;
-    margin: auto;
+    height: 4px;
     margin-top: 2rem;
+    margin: auto;
+    width: 168.442px;
 }
 
 .categories {
     border-radius: 3rem;
     display: grid;
-    width: 80vw;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5em;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    width: 80vw;
 }
 
 .categories-div {
-    display: grid;
-    margin: 1rem;
+    align-content: center;
     background: var(--clr-gray);
     border-radius: 2rem;
+    display: grid;
     justify-content: center;
-    align-content: center;
+    margin: 1rem;
     text-align: center;
 }
 
@@ -44,58 +44,59 @@
 }
 
 .categorie-container {
+    border-radius: 3rem;
+    border: .5rem solid var(--clr-cart);
     display: block;
     justify-content: center;
     margin: 10rem;
-    border: .5rem solid var(--clr-cart);
     padding: 2.5rem;
-    border-radius: 3rem;
 
 
 }
 
 .top_ten {
-    display: flex;
+    align-items: center;
+   
     background: linear-gradient(0deg, rgba(16, 25, 69, 0.57), rgba(16, 25, 69, 0.57)), url(../../imgs/taco\ de\ res.jpg) no-repeat;
     background-size: cover;
-    height: 40rem;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    height: 40rem;
+    justify-content: center;
+    width: 100vw;
 }
 
 .menu-container {
-    display: flex;
-    margin: 8rem 0;
-    flex-direction: column;
     align-content: center;
     background: var(--clr-gray);
     border-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 8rem 0;
     width: 100vw;
 }
 
 .price {
-    margin-bottom: 1rem;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .amount {
+    left: 29rem;
     position: absolute;
     top: 24.5rem;
-    left: 29rem;
 }
 
 .shop {
+    left: 24rem;
     position: absolute;
     top: 4rem;
-    left: 24rem;
 }
 
 .user {
+    left: 24rem;
     position: absolute;
     top: 23rem;
-    left: 24rem;
 }
 
 
