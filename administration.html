@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin</title>
+    <title>La Catrina | Admin</title>
+    <link rel="icon" type="image/x-icon" href="imgs\favicon-catrina.png" sizes="32x32">
     <link rel="stylesheet" href="./css/main.css">
 
     <!-- Google Fonts -->
@@ -35,7 +36,7 @@
         <h1 class="admin-tittle">Add recipe</h1>
         <div class="login">
 
-            <form class="recipe-form" action="">
+            <form class="recipe-form" action="post">
                 <input class="add-recipe" type="text" placeholder="Name">
                 <input class="add-recipe" type="text" placeholder="Categorie">
                 <input class="add-recipe" type="text" placeholder="Description">
@@ -55,16 +56,14 @@
                 <div class="cta-container">
                     <input class="login-btn" type="submit" value="Add">
                 </div>
-
             </form>
         </div>
          <!-- Edit -->
          <h1 class="admin-tittle">Edit recipe</h1>
          <div class="login">
  
-             <form class="recipe-form" action="">
+             <form class="recipe-form" action="post">
                  <input class="delete" type="search" placeholder="Name">
-                 
                  <div class="cta-container">
                      <input class="delete-btn" type="submit" value="Search">
                      <input class="delete-btn" type="submit" value="Edit">
@@ -76,7 +75,7 @@
         <h1 class="admin-tittle">Delete recipe</h1>
         <div class="login">
 
-            <form class="recipe-form" action="">
+            <form class="recipe-form" action="post">
                 <input class="delete" type="search" placeholder="Name">
                 
                 <div class="cta-container">
@@ -86,16 +85,7 @@
 
             </form>
         </div>
-
-
-
     </div>
-
-
-
-
-
-
 </body>
 
 </html>

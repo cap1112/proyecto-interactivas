@@ -27,7 +27,7 @@
     --clr-white: #ffffff;
     --clr-bone: #F5F5F5;
     --clr-black:#000000;
-    --clr-redline:#FF0000;
+    --clr-redline:#E60000;
     --clr-gray: #F7F7F7;
     --clr-light-gray: #e1e1e1;
     --clr-dark-gray: #333333;
@@ -37,5 +37,4 @@
     /* swiper slider custom propeties */
     --swiper-scrollbar-bottom: 0px;
     --swiper-scrollbar-bg-color: white
-    
 }
