@@ -7,8 +7,6 @@
     flex-direction: column;
     justify-content: center;
     width: 100vw;
-    position: fixed;
-
 }
 
 /*categories page*/
@@ -33,11 +31,7 @@
     width: 100%;
 }
 
-.header-image-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
+
 
 /* dish description page ending */
 
@@ -70,7 +64,6 @@
     border-radius: 3rem;
     padding: 3rem;
     width: 40vw;
-
 }
 /*login*/
 

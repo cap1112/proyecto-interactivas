@@ -22,6 +22,7 @@
     font-size: var(--fs-lg);
     font-weight: var(--fw-lg);
     margin-top: 4rem;
+    margin-bottom: 1rem;
 }
 .categorie-type {
     color: var(--clr-dark-gray);
@@ -78,14 +79,18 @@
     justify-content: center;
     
 }
-.recipes {
+.recipes {   
     display: flex;
     font-family: var(--ff-main);
     font-size: var(--fs-nm);
     font-weight: var(--fw-lg);
     text-align: left;
     color: var(--clr-white);
-    margin: 0;
+    margin: .9rem;
+}
+
+.recipes h3{   
+    margin-top: 1rem;
 }
 
 .footer-container {
@@ -114,14 +119,13 @@
 /* dish description page beginning*/
 
 .header-title {
-    align-self: end;
     display: flex;
     flex-direction: column;
     font-size: 4rem;
     font-weight: var(--fw-rg);
 }
 
-.header-text {
+/* .header-text {
     color: var(--clr-purple);
     display: grid;
     gap: 1rem;
@@ -129,7 +133,7 @@
     padding-right: 5rem;
     margin-top: 20%;
     margin-bottom: 20%;
-}
+} */
 
 .header-description {
     font-size: var(--fs-s);
@@ -160,6 +164,8 @@
     color: var(--clr-white);
     font-size: var(--fs-sm);
     font-weight: var(--fw-md);
+    padding: 1rem;
+    margin: 1rem 0;
 }
 
 .quantity-btn-text{

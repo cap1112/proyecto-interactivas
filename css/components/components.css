@@ -72,21 +72,19 @@
 
 /*GIRO*/
 
-/* .more {
+.more {
     left: 13rem;
     position: absolute;
     top: 27rem;
 }
 .link {
     margin: 1rem;
-} */ */
+}
 
 
 /* dish description page beginning*/
 
-.header-dish-image {
-    width: 80%;
-}
+
 
 .atc-btn {
     background-color: var(--clr-redline);
