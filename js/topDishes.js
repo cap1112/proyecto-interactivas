@@ -65,7 +65,7 @@ var swiper = new Swiper(".swiper", {
       setTimeout(function () {
         textRemoveAnimation();
       }, 1000);
-    })
+    });
   
     document.getElementById("swiper-next-button").addEventListener("click", function () {
       textChange();
@@ -73,7 +73,7 @@ var swiper = new Swiper(".swiper", {
       setTimeout(function () {
         textRemoveAnimation();
       }, 1000);
-    })
+    });
     // document.querySelector('.header-title').classList.remove("animate__animated");
     // document.querySelector('.header-title').classList.remove("animate__fadeInUp");
   
@@ -112,6 +112,6 @@ var swiper = new Swiper(".swiper", {
   //main loading
   document.addEventListener('DOMContentLoaded', function () {
     init();
-  })
+  });
   
   

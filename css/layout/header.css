@@ -1,12 +1,14 @@
 .hero-container {
+    height: min(42rem, 50rem, 60rem);
     align-items: center;
-    background: linear-gradient(0deg, rgba(16, 25, 69, 0.57), rgba(16, 25, 69, 0.57)), url(../../imgs/taco-res.jpg) no-repeat;
+    background: linear-gradient(0deg, rgba(16, 25, 69, 0.57), rgba(16, 25, 69, 0.57)), url(../../imgs/taco-res.jpg) no-repeat 50% 50%;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 60rem;
     justify-content: center;
     width: 100vw;
+    position: fixed;
+
 }
 
 /*categories page*/
@@ -25,7 +27,7 @@
     background-color: var(--clr-bone);
     background-size: cover;
     display: grid;
-    grid-template-columns: .8fr 1fr;
+    grid-template-columns: 1fr 1fr;
     height: 100%;
     position: fixed;
     width: 100%;

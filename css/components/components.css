@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    margin: 5rem;
 }
 
 .hero-btn {
@@ -24,14 +23,12 @@
     justify-content: center;
     justify-items: center;
     width: 100vw;
-
 }
 
-.card-container {
+/* .card-container {
     height: 30rem;
     margin: 1.5rem;
     width: 30rem;
-
 }
 
 .card-container div {
@@ -42,24 +39,23 @@
     justify-content: center;
     position: absolute;
     transition: 1s;
-}
+} */
 
-.card-image {
+/* .card-image {
     height: 30rem;
     width: 30rem;
-
-}
+} */
 
 /*GIRO*/
 
-.front {
+/* .front {
 
     transform: perspective(500px) rotateY(0deg);
 }
 
 .back {
     background: var(--clr-cart);
-    height: 30rem;
+    height: 20rem;
     padding: 1rem;
     transform: perspective(500px) rotateY(180deg);
     width: 30rem;
@@ -76,14 +72,14 @@
 
 /*GIRO*/
 
-.more {
+/* .more {
     left: 13rem;
     position: absolute;
     top: 27rem;
 }
 .link {
     margin: 1rem;
-}
+} */ */
 
 
 /* dish description page beginning*/

@@ -13,7 +13,6 @@
 
 
 /* temporal */
-
 .search-form{
     align-items: center;
     display: flex;
@@ -56,17 +55,55 @@
     text-decoration: none;
     margin-right: .5rem;
 }
-
 /* temporal  */
 
 
+.card-container {
+  width: 30rem;
+}
 
+.card {
+  --flip-card-border-radius: 2rem;
+  --flip-card-height: 30rem;
+  --flip-card-background-color-front: LightSkyBlue;
+  --flip-card-background-color-back: var(--clr-cart);
+  --flip-card-box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
 
+.menu-container{
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(26.25rem, 1fr));
+  justify-content: center;
+  justify-items: center;
+  margin: 3rem;
+}
 
+.card-image {
+  height: 100%;
+  width: fit-content;
+}
 
+.card-details-text-container{
+  margin: 2rem;
+}
 
+.card-details{
+  height: var(--flip-card-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
 
-/* no funciona si lo coloco en la carpeta de components.css */
+@media (max-width: 600px) {
+  .card-container {
+      width: 20rem;
+  }
+  .card {
+      --flip-card-height: 20rem;
+  }
+}
 
 * {
     padding: 0;
@@ -84,7 +121,6 @@
     .card-image {
         height: 20rem;
         width: 20rem;
-
     }
 
     .back {
@@ -92,7 +128,20 @@
         width: 20rem;
     }
 
+    .header-title {
+        font-size: 4rem;
+    }
+    
 }
+
+
+
+
+
+/* navbar */
+
+/* navbar */
+
 
 @media (max-width: 600px) {
 
@@ -101,12 +150,11 @@
 
     }
 
-    .hero-text {
+    /* .hero-text {
         font-size: var(--fs-sm);
         text-align: center;
         width: 80dvw;
-
-    }
+    } */
 
 
     .hero-btn {
@@ -144,4 +192,69 @@
         border-radius: 3rem;
 
     }
+
 }
+
+/* temporal 2 */
+
+
+
+
+  @media screen and (max-width:1024px){
+    .nav-links{
+      width:60%;
+    }
+  }
+  
+  @media screen and (max-width:768px){
+    body{
+      overflow: hidden;
+    }
+    .nav-links{
+      align-items: center;
+      background-color: white;
+      display:flex;
+      flex-direction: column;  
+      height:92vh;
+      position:absolute;
+      right:0px;
+      top: 8vh;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+      width:50%;
+    }
+    .nav-links li{
+      opacity: 0;
+    }
+    .bottom{
+      display:block;
+    }
+  }
+  
+  .nav-active{
+    transform: translateX(0%);
+  }
+  
+  @keyframes navLinkFade{
+    from{
+      opacity:0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  
+  .toggle .line1{
+    transform: rotate(-40deg) translate(-5px,6px);
+  }
+  
+  .toggle .line2{
+    transform: rotate(90deg) translate(0px,0px);
+  }
+  
+  .toggle .line3{
+    transform: rotate(35deg) translate(-5px,-6px);
+  }
+/* temporal 2 */

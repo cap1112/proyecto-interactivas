@@ -3,15 +3,15 @@
     --ff-main: 'Outfit', sans-serif;
     --ff-tittle: 'Poiret One', sans-serif;
     /*font size*/
-    --fs-tittle: 12rem;
-    --fs-xl: 8rem; 
-    --fs-lg: 5rem;
-    --fs-md: 2.5rem;
-    --fs-nm: 1.8rem; 
-    --fs-sm: 1.7rem;
-    --fs-s: 1.5rem;
-    --fs-xs: 1.3rem;
-    --fs-xxs:.8rem;
+    --fs-tittle: 12rem;  /*160px*/
+    --fs-xl: 8rem; /*128px*/
+    --fs-lg: 5rem; /*80px*/
+    --fs-md: 2.5rem; /*40px*/
+    --fs-nm: 1.8rem; /*28.8px*/
+    --fs-sm: 1.7rem; /*27.2px*/
+    --fs-s: 1.5rem; /*24px*/
+    --fs-xs: 1.3rem; /*20.8px*/
+    --fs-xxs:.8rem; /*12.8px*/
 
     /*font weight*/
     --fw-bk:900;
