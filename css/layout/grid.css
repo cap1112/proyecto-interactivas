@@ -33,6 +33,7 @@
     text-align: center;
 }
 
+
 .categorie-image {
     margin: auto;
 }
@@ -109,6 +110,7 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
+    padding: 1rem 4rem;
 }
 
 .quantity-container {
@@ -116,14 +118,16 @@
     background-color: var(--clr-purple);
     border-radius: 2rem;
     display: flex;
-    gap: 2rem;
+    gap: 6rem;
     overflow: hidden;
+    padding: 1rem .5rem;
 }
 
 .add-to-car-container {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    gap: 1.5rem;
+    
+    
 }
 .atc-container {
     display: flex;

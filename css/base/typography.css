@@ -121,10 +121,19 @@
 .header-title {
     display: flex;
     flex-direction: column;
-    font-size: 4rem;
+    font-size: var(--fs-lg);
     font-weight: var(--fw-rg);
+    font-family: var(--ff-main);
+    color: var(--clr-purple);
+    margin-top: 7rem;
 }
-
+.related-title{
+    color: var(--clr-redline);
+    font-family: var(--ff-main);
+    font-size: var(--fs-nm);
+    font-weight: var(--fw-bl);
+    margin: 5rem 0 1.5rem 10rem;
+}
 /* .header-text {
     color: var(--clr-purple);
     display: grid;
@@ -136,28 +145,33 @@
 } */
 
 .header-description {
-    font-size: var(--fs-s);
+    font-size: var(--fs-nm);
     font-weight: var(--fw-rg);
+    margin-top: 5rem;
+    width: 50vw;
+    color: var(--clr-purple);
+    
 }
 
 .header-link {
     color: var(--clr-pink);
     font-size: var(--fs-xs);
     font-weight: var(--fw-rg);
-    margin-left: .9rem;
     text-decoration: none;
 }
 
 .header-link-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-right: 1rem;
+    display: flex;
+    gap: 5rem;
+    margin-top: 1rem;
+    margin-left: 1rem ;
 }
 
 .price-text {
     align-self: center;
     font-size: var(--fs-sm);
     font-weight: var(--fw-md);
+    
 }
 
 .atc-btn-text {
@@ -201,11 +215,12 @@
 /* top dishes page ending */
 
 /*Log in*/
-.Login-tittle {
+.login-tittle {
     color: var(--clr-cart);
     font-family: var(--ff-main);
     font-size: var(--fs-lg);
     font-weight: var(--fw-md);
+    margin: 1rem;
 
 }
 
@@ -215,6 +230,7 @@
     font-size: var(--fs-xs);
     font-weight: var(--fw-md);
     margin-left: .5rem;
+    margin-top: 1rem;
 }
 
 .forgot-password {
@@ -223,6 +239,7 @@
     font-size: var(--fs-xs);
     font-weight: var(--fw-md);
     margin-left: 5rem;
+    margin-top: 1rem;
 }
 
 .sign-text {
@@ -230,6 +247,7 @@
     font-family: var(--ff-main);
     font-size: var(--fs-xs);
     font-weight: var(--fw-md);
+    margin-top: 1rem;
 }
 
 .email {
@@ -239,7 +257,8 @@
     font-size: var(--fs-xs);
     font-weight: var(--fw-md);
     padding: 1rem;
-    width: 30vw;
+    width: 35vw;
+    
 }
 /*Log in*/
 /*Sign up*/
@@ -249,6 +268,7 @@
     font-size: var(--fs-xs);
     font-weight: var(--fw-md);
     margin-left: 3rem;
+    margin-top: 1rem;
 }
 /*Sign up */
 /*admin*/

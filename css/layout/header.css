@@ -21,18 +21,39 @@
 }
 
 /* dish description page beginning*/
-.header-container {
-    background-color: var(--clr-bone);
-    background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-    position: fixed;
-    width: 100%;
+.description-header-container{
+    display: flex;
+    flex-direction: column;
+    
 }
-
-
-
+.header-container {
+    background-color: var(--clr-gray);
+    background-size: cover;
+    display: flex;
+    width: 95vw;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.related-dishes-container{
+    display: flex;
+    background: var(--clr-gray); 
+    height: 25rem;
+    margin: 5rem 0 ;
+    gap: .5rem;
+    justify-content: center;
+    
+}
+.header-text{
+    margin: 0 6rem 4rem;
+    width: 80vw;
+    
+}
+.header-image-container{
+ 
+    width: 100vw;
+}
 /* dish description page ending */
 
 /* top dishes page beginning */
