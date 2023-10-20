@@ -140,6 +140,7 @@
     display: grid;
     grid-template-rows: 3fr 1fr 1fr 1fr;
     padding: 10%;
+    align-items: end;
 }
 .slider-header-container {
     background-size: cover;
