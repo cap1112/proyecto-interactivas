@@ -7,13 +7,6 @@
     font-family: 'Poppins', sans-serif;
   }
   
-  .logo{
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: min(3rem,2rem,10rem);
-  }
-  
   .nav-links{
     display: flex;
     justify-content: space-around;
@@ -27,7 +20,7 @@
   .nav-links a{
     color: var(--clr-purple);
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 0.188rem;
     font-weight:bold;
     font-size: min(2rem,1.5rem,3rem);
   }
@@ -38,12 +31,11 @@
   }
   
   .bottom div{
-    width:25px;
-    height:3px;
+    width: 1.563rem;
+    height: 0.188rem;
     background-color: var(--clr-purple);
-    margin: 5px;
+    margin: 0.313rem;
     transition: all 0.3s ease
-    
   }
 
 

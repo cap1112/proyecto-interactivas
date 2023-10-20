@@ -127,6 +127,7 @@
     color: var(--clr-purple);
     margin-top: 7rem;
 }
+
 .related-title{
     color: var(--clr-redline);
     font-family: var(--ff-main);
@@ -192,11 +193,20 @@
 
 /* top dishes page beginning */
 .nav-title-text {
-    border-left: 3.5px solid var(--clr-black);
+    border-left: 0.219rem solid var(--clr-black);
     display: inline-block;
     font-size: var(--fs-md);
     font-weight: var(--fw-lg);
     padding-left: 1rem;
+}
+
+.header-title-top-dishes {
+    flex-direction: column;
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-rg);
+    font-family: var(--ff-main);
+    color: var(--clr-white);
+    margin-top: 7rem;
 }
 .header-description-text{
     font-size: 1.5rem;

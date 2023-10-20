@@ -9,17 +9,17 @@
 
 .red-bar {
     background: #F00;
-    height: 4px;
+    height: 0.25rem;
     margin-top: 2rem;
     margin: auto;
-    width: 168.442px;
+    width: 10.528rem;
 }
 
 .categories {
     border-radius: 3rem;
     display: grid;
     gap: 1.5em;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr));
     width: 80vw;
 }
 
@@ -136,7 +136,7 @@
 
 /* top dishes page beginning */
 .header-text-container {
-    color: var(--clr-white);
+    color: white;
     display: grid;
     grid-template-rows: 3fr 1fr 1fr 1fr;
     padding: 10%;
@@ -145,7 +145,7 @@
 .slider-header-container {
     background-size: cover;
     display: grid;
-    grid-template-columns: .7fr 1fr;
+    grid-template-columns: 1fr;
     height: 100%;
     position: fixed;
     width: 100%;
@@ -154,7 +154,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 6rem;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
+    /* margin-top: 2rem; */
     margin-top: 2rem;
     width: 12rem;
 }
@@ -165,6 +166,7 @@
     display: flex;
     height: 3rem;
     text-align: center;
+    margin-top: 2rem;
     width: 11rem;
 }
 .slider-header-container {

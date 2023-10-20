@@ -35,6 +35,6 @@
     --clr-pink: #8a88b0;
 
     /* swiper slider custom propeties */
-    --swiper-scrollbar-bottom: 0px;
+    --swiper-scrollbar-bottom: 0px; /*debe mantenerse en px*/
     --swiper-scrollbar-bg-color: white
 }

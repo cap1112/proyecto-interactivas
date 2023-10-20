@@ -47,3 +47,38 @@
 }
 /*admin*/
 
+.search-form-container {
+    display: flex;
+    justify-content: center;
+  }
+  .search {
+    display: flex;
+    width: auto;
+    height: 3rem;
+    padding: 0.5rem;
+    border-radius: 4rem;
+    background: var(--clr-light-gray);
+    justify-content: center;
+  }
+  .search-text {
+    border-radius: 2rem;
+    border: none;
+    font-family: var(--ff-main);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-md);
+    padding: 1rem;
+    width: 30vw;
+  }
+  .search-btn {
+    background: var(--clr-redline);
+    border-radius: 1.5rem;
+    border: none;
+    color: var(--clr-white);
+    font-family: var(--ff-main);
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-md);
+    padding: 0.4rem 4rem;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 1rem;
+  }

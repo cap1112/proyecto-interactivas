@@ -8,26 +8,31 @@ let animationEfect = "animate__fadeInLeft";
 /*
 * 1st Slider. Right Side
 */ 
-var swiper = new Swiper(".swiper", {
+// if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768) {
+//   console.log("Mobile")
 
-  effect: "slide",
-  slidesPerView: 3,
-  spaceBetween: 30,
+// } else {
+//   var swiper = new Swiper(".swiper", {
 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-
-  navigation: {
-    nextEl: '.swiper-next-button',
-    prevEl: '.swiper-preview-button',
-  },
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-
-});
+//     effect: "slide",
+//     slidesPerView: 3,
+//     spaceBetween: 30,
+  
+//     pagination: {
+//       el: ".swiper-pagination",
+//       clickable: true,
+//     },
+  
+//     navigation: {
+//       nextEl: '.swiper-next-button',
+//       prevEl: '.swiper-preview-button',
+//     },
+//     scrollbar: {
+//       el: '.swiper-scrollbar',
+//     },
+  
+//   });
+// }
 /*
 * 2nd Slider. Background
 */ 
@@ -100,8 +105,8 @@ function textChange() {
   let cardPosition = currentCard.getAttribute("aria-label");
   for (let index = 0; index < 10; index++) {
     if (cardPosition == index + " / 10") {
-      document.querySelector('.header-title').innerHTML = products[index].title;
-      document.querySelector('.header-description').innerHTML = products[index].description;
+      document.querySelector('.top-dishes-title').innerHTML = products[index].title;
+      document.querySelector('.top-dishes-description').innerHTML = products[index].description;
       document.querySelector('.order-btn').setAttribute("href", products[index].hlink);
     }
   }
@@ -111,10 +116,10 @@ function textChange() {
 * function that adds two attributes for animation: animate__animated activates the animation, and animationEffect is the desired animation type.
 */
 function textAddAnimation() {
-  document.querySelector('.header-title').classList.add("animate__animated");
-  document.querySelector('.header-title').classList.add(animationEfect);
-  document.querySelector(".header-description").classList.add("animate__animated");
-  document.querySelector(".header-description").classList.add(animationEfect);
+  document.querySelector('.top-dishes-title').classList.add("animate__animated");
+  document.querySelector('.top-dishes-title').classList.add(animationEfect);
+  document.querySelector(".top-dishes-description").classList.add("animate__animated");
+  document.querySelector(".top-dishes-description").classList.add(animationEfect);
   document.querySelector('.order-btn-container').classList.add("animate__animated");
   document.querySelector('.order-btn-container').classList.add(animationEfect);
 }
@@ -123,10 +128,10 @@ function textAddAnimation() {
 * function that removes two attributes for animation: animate__animated activates the animation, and animationEffect is the desired animation type.
 */
 function textRemoveAnimation() {
-  document.querySelector('.header-title').classList.remove("animate__animated");
-  document.querySelector('.header-title').classList.remove(animationEfect);
-  document.querySelector(".header-description").classList.remove("animate__animated");
-  document.querySelector(".header-description").classList.remove(animationEfect);
+  document.querySelector('.top-dishes-title').classList.remove("animate__animated");
+  document.querySelector('.top-dishes-title').classList.remove(animationEfect);
+  document.querySelector(".top-dishes-description").classList.remove("animate__animated");
+  document.querySelector(".top-dishes-description").classList.remove(animationEfect);
   document.querySelector('.order-btn-container').classList.remove("animate__animated");
   document.querySelector('.order-btn-container').classList.remove(animationEfect);
 }

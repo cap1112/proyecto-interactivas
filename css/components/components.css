@@ -19,59 +19,11 @@
 .recipes-container {
     display: grid;
     gap: 5rem;
-    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(26.25rem, 1fr));
     justify-content: center;
     justify-items: center;
     width: 100vw;
 }
-
-
-/* .card-container {
-    height: 30rem;
-    margin: 1.5rem;
-    width: 30rem;
-}
-
-.card-container div {
-    align-items: center;
-    backface-visibility: hidden;
-    border-radius: 3rem;
-    display: grid;
-    justify-content: center;
-    position: absolute;
-    transition: 1s;
-} */
-
-/* .card-image {
-    height: 30rem;
-    width: 30rem;
-} */
-
-/*GIRO*/
-
-/* .front {
-
-    transform: perspective(500px) rotateY(0deg);
-}
-
-.back {
-    background: var(--clr-cart);
-    height: 20rem;
-    padding: 1rem;
-    transform: perspective(500px) rotateY(180deg);
-    width: 30rem;
-}
-
-.card-container:hover .front {
-    transform: perspective(500px) rotateY(180deg);
-}
-
-.card-container:hover .back {
-
-    transform: perspective(500px) rotateY(360deg);
-}
-
-/*GIRO*/
 
 .more {
     left: 13rem;
@@ -100,8 +52,8 @@
 
 .quantity-btn{
     background: none;
-    border-left: 2px solid var(--clr-white);
-    border-right: 2px solid var(--clr-white);
+    border-left: 0.125rem solid var(--clr-white);
+    border-right: 0.125rem solid var(--clr-white);
     border: none;
     cursor: pointer;
     margin: 0 1rem ;
@@ -134,6 +86,7 @@
 }
 /* dish description page ending */
 
+
 /* top dishes page beginning */
 .header-image-filter {
     background: url(../../imgs/filtro.png);
@@ -161,8 +114,6 @@
 
 .swiperBackground{
     background-size: cover;
-    display: grid;
-    grid-template-columns: .7fr 1fr;
     height: 100%;
     position: fixed;
     width: 100%;
@@ -184,7 +135,7 @@
     align-items: center;
     background: var(--clr-white);
     display: flex;
-    font-size: 25px;
+    font-size: var(--fs-s);
     justify-content: center;
     overflow: hidden;
     text-align: end;
